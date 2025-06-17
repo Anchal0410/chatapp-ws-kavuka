@@ -43,5 +43,7 @@ export const DEFAULT_CONFIG = {
   PORT: 8080,
   MONGODB_URI: process.env.MONGODB_URI!,
   DB_NAME: "chatapp",
-  CORS_ORIGIN: "http://localhost:3000",
+  CORS_ORIGINS: process.env.NODE_ENV!
+    ? "http://localhost:3000"
+    : "https://chatapp-ws-kavuka-5hzi.vercel.app",
 } as const;

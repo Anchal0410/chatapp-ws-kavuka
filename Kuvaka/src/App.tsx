@@ -17,7 +17,9 @@ import {
   Zap,
 } from "lucide-react";
 
-const WEBSOCKET_URL: string = "ws://localhost:8080";
+const WEBSOCKET_URL = import.meta.env.PROD
+  ? "wss://chatapp-ws-kavuka.onrender.com"
+  : import.meta.env.VITE_WEBSOCKET_URL;
 
 const App: React.FC = () => {
   const [currentUsername, setCurrentUsername] = useState<string>("");

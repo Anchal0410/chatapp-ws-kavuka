@@ -21,7 +21,7 @@ const config: ServerConfig = {
   port: parseInt(process.env.PORT || String(DEFAULT_CONFIG.PORT)),
   mongoUri: process.env.MONGODB_URI || DEFAULT_CONFIG.MONGODB_URI,
   dbName: process.env.MONGODB_DB_NAME || DEFAULT_CONFIG.DB_NAME,
-  corsOrigin: process.env.CORS_ORIGIN || DEFAULT_CONFIG.CORS_ORIGIN,
+  corsOrigin: process.env.CORS_ORIGIN || DEFAULT_CONFIG.CORS_ORIGINS,
   maxMessageLength: parseInt(process.env.MAX_MESSAGE_LENGTH || "500"),
   messageHistoryLimit: parseInt(process.env.MESSAGE_HISTORY_LIMIT || "50"),
 };
