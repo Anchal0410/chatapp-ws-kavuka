@@ -41,9 +41,7 @@ export const LIMITS = {
 
 export const DEFAULT_CONFIG = {
   PORT: 8080,
-  MONGODB_URI:
-    process.env.MONGODB_URI ||
-    "mongodb+srv://Anchal19_:jainanchal165@cluster0.qfgmiqh.mongodb.net/",
+  MONGODB_URI: process.env.MONGODB_URI!,
   DB_NAME: "chatapp",
   CORS_ORIGIN: "http://localhost:3000",
 } as const;
