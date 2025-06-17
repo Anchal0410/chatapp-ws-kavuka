@@ -13,7 +13,6 @@ import {
   LogOut,
   WifiOff,
   Wifi,
-  Activity,
   Clock,
   Zap,
 } from "lucide-react";

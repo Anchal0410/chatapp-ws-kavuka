@@ -7,7 +7,7 @@ import React, {
 } from "react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
-import { Send, Loader2, Smile, Paperclip, Mic } from "lucide-react";
+import { Send, Loader2, Smile } from "lucide-react";
 
 interface MessageInputProps {
   onSendMessage: (message: string) => boolean;
