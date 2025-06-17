@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/controllers/messagecontroller.ts","./src/database/connection.ts","./src/models/message.ts","./src/services/websocketservice.ts","./src/types/index.ts","./src/utils/constants.ts","./src/utils/logger.ts"],"version":"5.8.3"}
